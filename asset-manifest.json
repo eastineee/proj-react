@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/proj-react/static/css/main.cd87b43c.css",
+    "main.js": "/proj-react/static/js/main.9b0c0a77.js",
+    "static/media/your-song.mp3": "/proj-react/static/media/your-song.8b2eb8c53439cb07d66f.mp3",
+    "static/media/caplogo.png": "/proj-react/static/media/caplogo.d82d681e44dd5700d5d9.png",
+    "static/media/jrj.jpg": "/proj-react/static/media/jrj.8d8b48389001fbfa625f.jpg",
+    "static/media/avatar.jpg": "/proj-react/static/media/avatar.b98b2fef8c9d504ac05e.jpg",
+    "static/media/th.jpg": "/proj-react/static/media/th.e465d9b202578d32c49b.jpg",
+    "static/media/ps.jpg": "/proj-react/static/media/ps.e3cdb2af2bb9e7241df5.jpg",
+    "static/media/re.jpg": "/proj-react/static/media/re.c899e30e9e5138316169.jpg",
+    "static/media/ye.jpg": "/proj-react/static/media/ye.95e646323956a5817053.jpg",
+    "static/media/log.jpg": "/proj-react/static/media/log.5384f3e6975f39a3031a.jpg",
+    "index.html": "/proj-react/index.html",
+    "main.cd87b43c.css.map": "/proj-react/static/css/main.cd87b43c.css.map",
+    "main.9b0c0a77.js.map": "/proj-react/static/js/main.9b0c0a77.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd87b43c.css",
+    "static/js/main.9b0c0a77.js"
+  ]
+}
