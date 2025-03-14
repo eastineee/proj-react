@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=My+Soul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+
+/* General Page Styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  color: rgb(255, 255, 255);
+  height: 100%;
+}
+
+/* Background Image */
+.register-container {
+  display: flex;
+  justify-content: flex-end; /* Moves the form to the right */
+  align-items: center;
+  height: 100vh;
+  background: url('re.jpg') no-repeat center center/cover;
+  position: relative;
+  padding-right: 14%; /* Adjust this value to move the form more or less to the right */
+}
+
+/* Form Box */
+.register-box {
+  width: 500px; /* Adjust width */
+  max-width: 90%; /* Ensures responsiveness */
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Align content to the left */
+  position: absolute;
+  right: 10%; /* Adjusts position to the right */
+  top: 50%;
+  transform: translateY(-50%); /* Centers vertically */
+}
+
+.register-box input {
+  width: 130%; /* Makes inputs take full width of their container */
+  padding: 10px;
+  box-sizing: border-box; /* Ensures padding doesn’t affect total width */
+  margin-bottom: 15px;
+}
+
+
+/* Heading */
+h2 {
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* Social Login */
+.social-login {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Centers the icons */
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* Social Icon Styles */
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: maroon;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: darkred;
+}
+
+/* Name Fields (Side by Side) */
+.name-fields {
+  display: flex;
+  gap: 10px;
+  width: 130%;
+}
+
+/* First & Last Name Inputs */
+.name-fields input {
+  flex: 1;
+  min-width: 180px;
+  width: 50%;
+  box-sizing: border-box; /* Fixes width inconsistency */
+}
+
+/* General Input Styling */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Checkbox & Terms */
+.terms-container {
+  display: flex;
+  align-items: center;
+  justify-content: left; 
+  font-size: 11px; /* Made smaller */
+  gap: 5px;
+  width: 100%;
+}
+
+/* Checkbox */
+.terms-container input {
+  width: 14px;
+  height: 14px;
+}
+
+/* Change Terms & Privacy Text to Red */
+.terms-container a {
+  color: red;
+  text-decoration: none;
+  font-size: 11px; /* Adjust text size */
+}
+
+.terms-container a:hover {
+  text-decoration: underline;
+}
+
+/* Register Button */
+.register-btn {
+  width: 130%;
+  padding: 12px;
+  background: maroon;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background: darkred;
+}
+
+/* Login Link */
+.login-link {
+  text-align: center; /* Centering the text */
+  font-size: 12px; /* Made a bit smaller */
+  margin-top: 15px;
+  width: 100%;
+}
+
+.login-link a {
+  color: red; /* Changed color */
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* General alert styling */
+.alert-message {
+  font-size: 12px;  /* Make the text smaller */
+  color: rgb(255, 255, 255);  /* Keep it noticeable */
+  text-align: center;  /* Center-align */
+  margin-top: 5px;
+  font-weight: normal;  /* Reduce boldness */
+  opacity: 0.8; /* Slightly faded */
+  font-family: "Merienda", cursive;
+}
+
+/* Input Labels - Make them smaller */
+label {
+  font-size: 12px;  /* Reduced size */
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 10px;  /* Adjust spacing */
+}
+
+.password-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 130%;
+}
+
+.password-input {
+  width: 100%;
+  padding-right: 40px; /* Space for eye icon */
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 40%;
+  right: 10px;
+  transform: translateY(-50%); /* Centers it properly */
+  cursor: pointer;
+  width: 16px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eye-shape {
+  width: 14px;
+  height: 8px;
+  border-radius: 50%;
+  border: 2px solid;
+  display: block;
+}
+
+.white-eye {
+  border-color: rgb(255, 0, 0);
+  background: rgb(255, 0, 0);
+}
+
+.red-eye {
+  border-color: rgb(255, 255, 255);
+  background: rgb(255, 255, 255);
+}
+
+
+
+
+

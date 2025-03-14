@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=My+Soul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+
+/* Apply styles to the entire login page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+}
+
+/* Background image */
+.login-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    background: url("log.jpg") no-repeat center center/cover;
+    padding-right: 15%;
+}
+
+/* Login Box */
+.login-box {
+    color: white;
+    padding: 40px;
+    width: 500px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align content to the left */
+    position: absolute;
+    right: 10%; /* Adjusts position to the right */
+    top: 50%;
+    transform: translateY(-50%); /* Centers vertically */
+}
+
+/* Header */
+h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Social Login */
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: maroon;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: darkred;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    border: 2px solid white;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Adjust spacing between input fields */
+input[type="email"], 
+input[type="password"] {
+    margin-bottom: 15px; /* Increased space */
+}
+
+/* Forgot Password (Aligned Right) */
+.forgot-password-container {
+    text-align: right;
+    margin-top: -5px; /* Adjusted spacing */
+}
+
+.forgot-password {
+    color: maroon;
+    text-decoration: none;
+    font-size: 12px; /* Made smaller */
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Login Button */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background: maroon;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background: darkred;
+}
+
+/* Register Link - Centered */
+.register-link {
+    font-size: 12px;
+    margin-top: 15px;
+    text-align: center;
+    display: block;
+    margin-left: 130px;
+}
+.register-link a {
+    color: maroon;
+    text-decoration: none;
+}
+.register-link a:hover {
+    text-decoration: underline;
+}

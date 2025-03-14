@@ -1,0 +1,144 @@
+/* Apply styles to the entire login page */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+/* Background image */
+.login-container {
+  display: flex;
+  justify-content: flex-end; /* Moves login box to the side */
+  align-items: center;
+  height: 100vh;
+  background: url("log.jpg") no-repeat center center/cover;
+  padding-right: 15%; /* Adjust this to move login box left/right */
+}
+
+/* Login Box */
+.login-box {
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 350px;
+  text-align: left;
+}
+
+/* Header */
+h2 {
+  font-family: "Cursive", sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Social Login */
+/* Social Media Icons */
+.social-login {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: maroon;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: darkred;
+}
+
+
+
+
+/* Input Fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Remember & Forgot Password Section */ 
+.remember-forgot {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* Container for Remember Me */
+.remember-me-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-grow: 1; /* Pushes Forgot Password to the right */
+}
+
+/* Checkbox Fix */
+.remember-me-container input[type="checkbox"] {
+  margin: 0;
+  width: 14px;
+  height: 14px;
+}
+
+/* Forgot Password Link */
+.remember-forgot a {
+  color: maroon;
+  text-decoration: none;
+  font-size: 12px;
+  text-align: right;
+  flex-grow: 1; /* Ensures it moves to the right */
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+
+/* Login Button */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: maroon;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: darkred;
+}
+
+/* Register Link */
+.register-link {
+  font-size: 12px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.register-link a {
+  color: maroon;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
